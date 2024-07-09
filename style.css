@@ -1,0 +1,409 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  font-family: "Merriweather";
+  border-radius: 16px;
+  background: url("assets/images/Banner\ Image.png"),
+    linear-gradient(180deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%);
+  max-width: 1320px;
+  height: 600px;
+  background-blend-mode: overlay;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 120px;
+}
+header h4 {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+header h1 {
+  color: rgb(255, 255, 255);
+  font-size: 72px;
+  font-weight: 900;
+  width: 632px;
+  text-align: center;
+}
+.catagories {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Inter";
+  margin-bottom: 120px;
+}
+.catagories h2 {
+  color: rgb(255, 0, 0);
+  font-size: 88px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+.catagories p {
+  color: rgb(255, 0, 0);
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.catagories h3 {
+  color: rgb(7, 2, 17);
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+.catagories img {
+  width: 802.9px;
+}
+/* party design */
+.party {
+  max-width: 1320px;
+  height: 600px;
+  margin: 0 auto;
+  background-image: url("assets/images/Vectorrr.png"),
+    linear-gradient(90deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%);
+  background-blend-mode: overlay;
+  border-radius: 16px;
+  font-family: "Inter";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 39px;
+  margin-bottom: 120px;
+}
+.party-text {
+  max-width: 697px;
+}
+.party-text p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 48px;
+}
+.party-text h2 {
+  color: rgb(255, 255, 255);
+  font-family: "Merriweather";
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  margin-bottom: 24px;
+}
+.party-text a {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  margin-left: 32px;
+}
+.party img {
+  width: 349.16px;
+  height: 464.65px;
+}
+/* party info section */
+.info {
+  max-width: 1320px;
+  height: 482px;
+  margin: 0 auto;
+  font-family: "Inter";
+  border-radius: 16px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 120px;
+}
+.info .info-text {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  margin-bottom: 48px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.info-text span {
+  color: rgb(255, 0, 0);
+}
+.info button {
+  width: 167px;
+  height: 56px;
+  border-radius: 8px;
+  background: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 110px;
+}
+/* offer style */
+.offer {
+  max-width: 1320px;
+  margin: 0 auto;
+  display: flex;
+  font-family: "Inter";
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 120px;
+}
+.offer > img {
+  border: 15px solid rgb(255, 0, 0);
+  border-radius: 50%;
+  padding: 49px;
+}
+.offer-detail {
+  max-width: 393px;
+}
+.offer-detail p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+}
+.offer-detail h2 {
+  color: rgb(7, 2, 17);
+  font-family: "Merriweather";
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 22px;
+}
+.offer-detail h4 {
+  color: rgb(255, 0, 0);
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.offer-text {
+  width: 276px;
+  align-self: flex-end;
+}
+.offer-text h2 {
+  color: rgb(255, 0, 0);
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.offer-text p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 43px;
+}
+.offer-text img {
+  width: 140px;
+  height: 140px;
+}
+/* sale style */
+.sale {
+  max-width: 1320px;
+  margin: 0 auto;
+  font-family: "Inter";
+  margin-bottom: 120px;
+}
+.sale-text {
+  text-align: center;
+  margin-bottom: 64px;
+}
+.sale-text h4 {
+  color: rgb(7, 2, 17);
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.sale-text h2 {
+  font-family: "Merriweather";
+  color: rgb(7, 2, 17);
+  font-size: 72px;
+  font-weight: 900;
+  margin-bottom: 28px;
+}
+.sale-text h2 span {
+  color: rgb(255, 0, 0);
+}
+.sale-text p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+}
+.sale-img {
+  height: 662.07px;
+  background-image: url("assets/images/Rectangle\ 2.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  position: relative;
+}
+.sale-img .img2 {
+  max-width: 305.69px;
+  position: absolute;
+  top: 136px;
+  right: 60px;
+}
+/* portfolio design */
+.portfolio {
+  max-width: 1320px;
+  margin: 0 auto;
+  font-family: "Inter";
+  margin-bottom: 120px;
+}
+.portfolio-text h4 {
+  color: rgb(255, 0, 0);
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.portfolio-text h2 {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 22px;
+}
+.portfolio-text p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 48px;
+  width: 896px;
+}
+.portfolio-imgs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.portfolio-imgs img {
+  width: 424px;
+  height: 450px;
+}
+/* newsletter design */
+.newsletter {
+  max-width: 1320px;
+  height: 616px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  margin-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.newsletter p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 48px;
+}
+.newsletter img {
+  width: 150px;
+  height: 150px;
+  align-self: center;
+  margin-bottom: 40px;
+}
+.newsletter h2 {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+  margin-bottom: 22px;
+}
+.newsletter-input {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+.newsletter-input input {
+  border: none;
+  border-radius: 50px 0 0 50px;
+  background: rgb(255, 255, 255);
+  color: rgba(7, 2, 17, 0.3);
+  font-size: 18px;
+  font-weight: 400;
+  width: 438px;
+  height: 70px;
+  padding-left: 30px;
+}
+.newsletter-input button {
+  border: none;
+  border-radius: 0px 50px 50px 0px;
+  background: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  width: 210px;
+  height: 70px;
+}
+/* footer style */
+footer {
+  background: rgb(7, 2, 17);
+  height: 609px;
+  font-family: "Inter";
+}
+.footer-container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding-top: 120px;
+}
+.up {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+hr {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  margin-bottom: 50px;
+}
+.text {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.contact a {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 500;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+.contact span {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 5;
+}
+.contact{
+    margin-right: 135px;
+}
+.icon {
+  text-align: center;
+  margin-bottom: 47px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.end {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+}
+.end a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
